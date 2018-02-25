@@ -6,4 +6,4 @@ So far two topics are covered, first one is HTTP protocol and second is General 
 
 Topic structure:
 1. **HTTP Protocol**
-2. **General Network**ing Concepts**
+2. **General Networking Concepts**

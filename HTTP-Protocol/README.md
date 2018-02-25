@@ -1,4 +1,4 @@
-#HTTP Protocol
+# HTTP Protocol
 
 To carry out exercises to develop experiential understanding of HTTP protocol, a basic
 setup of a *web server* and *web client* is required. It is recommended that these two
@@ -9,6 +9,7 @@ would require a web server, and by default we will assume *Apache* web server
 
 To install Apache on a linux machine, do the following (ref:
 https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04)
+
 *sudo apt install apache2*
 
 To ensure the web server name works, in the client machine, edit the file */etc/hosts* and

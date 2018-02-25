@@ -10,7 +10,7 @@ e.g. *Apache* web server.
 
 **welcome.pcap**:
 	This file contains the wireshark capture of a web request when a simple web page
-	*welcome.html* is access in browser.
+	*welcome.html* is access in browser. To see the entire communication between a web brwoser and web server when accessing the web page *http://myweb.com/welcome.html*, open this file in *wireshark* and it will show all the packet exchange including TCP/IP protocol stack, HTTP headers (both request and response) as well as the content of web page.
 
 **Table1-HTTP-Request.txt**: 
 	Contains the *Request line and the *request headers* sent by the web client e.g.

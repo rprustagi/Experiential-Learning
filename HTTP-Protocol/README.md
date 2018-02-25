@@ -14,6 +14,7 @@ https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mys
 
 To ensure the web server name works, in the client machine, edit the file */etc/hosts* and
 make the following entry.
+
 *10.1.1.1	myweb.com*
 
 To ensure, this web server name is working, open the browser and type the URL

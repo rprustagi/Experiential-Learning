@@ -5,5 +5,5 @@ Describes the source code and example snippets as described in articles under th
 So far two topics are covered, first one is HTTP protocol and second is General Networking concept and thus there are two directoroies. The respective content and description will be available under each topic/sub-topic.
 
 Topic structure:
-1. HTTP Protocol
-2. General Networking Concepts
+1. **HTTP Protocol**
+2. **General Network**ing Concepts**

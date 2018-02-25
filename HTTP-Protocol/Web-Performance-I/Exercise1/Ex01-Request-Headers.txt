@@ -1,0 +1,2589 @@
+Request Headers for http://acc.digital at http://webpagetest.org
+
++ Request 1: http://acc.digital/
+URL: http://acc.digital/
+Host: acc.digital
+IP: 94.130.104.144
+Error/Status Code: 301
+Priority: HIGHEST
+Protocol: http/1.1
+Client Port: 52716
+Request Start: 0.153 s
+DNS Lookup: 24 ms
+Initial Connection: 124 ms
+Time to First Byte: 125 ms
+Bytes In (downloaded): 0.2 KB
+Bytes Out (uploaded): 0.4 KB
+Request Headers:
+
+GET / HTTP/1.1
+Host: acc.digital
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://127.0.0.1:8888/orange.html
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Response Headers:
+
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:01 GMT
+Content-Type: text/html
+Content-Length: 178
+Connection: keep-alive
+Location: https://acc.digital/
++ Request 2: https://acc.digital/
+URL: https://acc.digital/
+Host: acc.digital
+IP: 94.130.104.144
+Error/Status Code: 200
+Priority: VeryHigh
+Protocol: http/1.1
+Client Port: 35930
+Request Start: 0.664 s
+Initial Connection: 124 ms
+Time to First Byte: 759 ms
+Content Download: 251 ms
+Bytes In (downloaded): 62.0 KB
+Uncompressed Size: 61.6 KB
+Bytes Out (uploaded): 0.4 KB
+Request Headers:
+
+GET / HTTP/1.1
+Host: acc.digital
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://127.0.0.1:8888/orange.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Response Headers:
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:02 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/5.4.45
+Link: <https://acc.digital/wp-json/>; rel="https://api.w.org/", <https://acc.digital/>; rel=shortlink
+X-Powered-By: PleskLin
++ Request 3: https://acc.digital/wp-content/plugins/column-shortcodes//assets/css/shortcodes.css?ver=1.0
+URL: https://acc.digital/wp-content/plugins/column-shortcodes//assets/css/shortcodes.css?ver=1.0
+Host: acc.digital
+IP: 94.130.104.144
+Error/Status Code: 200
+Priority: HIGHEST
+Protocol: http/1.1
+Initiated By: https://acc.digital/ line 31
+Client Port: 35932
+Request Start: 1.447 s
+Initial Connection: 219 ms
+Time to First Byte: 236 ms
+Content Download: 1 ms
+Bytes In (downloaded): 3.4 KB
+Uncompressed Size: 3.1 KB
+Bytes Out (uploaded): 0.4 KB
+Request Headers:
+
+GET /wp-content/plugins/column-shortcodes//assets/css/shortcodes.css?ver=1.0 HTTP/1.1
+Host: acc.digital
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: text/css,*/*;q=0.1
+Referer: https://acc.digital/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Response Headers:
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:02 GMT
+Content-Type: text/css
+Content-Length: 3185
+Last-Modified: Mon, 09 Oct 2017 04:22:02 GMT
+Connection: keep-alive
+ETag: "59daf96a-c71"
+X-Powered-By: PleskLin
+Accept-Ranges: bytes
++ Request 4: https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C600%2C700%2C400italic%2C300%7CRoboto%3A400%2C500%2C700%2C300%2C400italic&ver=4.7.6
+URL: https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C600%2C700%2C400italic%2C300%7CRoboto%3A400%2C500%2C700%2C300%2C400italic&ver=4.7.6
+Host: fonts.googleapis.com
+IP: 172.217.7.170
+Error/Status Code: 200
+Priority: HIGHEST
+Protocol: HTTP/2
+HTTP/2 Stream: 1, weight 256, depends on 0
+Initiated By: https://acc.digital/ line 33
+Client Port: 41472
+Request Start: 1.554 s
+DNS Lookup: 25 ms
+Initial Connection: 32 ms
+Time to First Byte: 44 ms
+Content Download: 1 ms
+Bytes In (downloaded): 1.4 KB
+Uncompressed Size: 22.8 KB
+Bytes Out (uploaded): 0.4 KB
+Request Headers:
+
+:path: /css?family=Open+Sans%3A400%2C600%2C700%2C400italic%2C300%7CRoboto%3A400%2C500%2C700%2C300%2C400italic&ver=4.7.6
+accept-language: en-US,en;q=0.9
+accept-encoding: gzip, deflate, br
+accept: text/css,*/*;q=0.1
+user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+:scheme: https
+referer: https://acc.digital/
+:method: GET
+:authority: fonts.googleapis.com
+Response Headers:
+
+status: 200
+x-xss-protection: 1; mode=block
+content-encoding: br
+expires: Sun, 18 Feb 2018 15:25:02 GMT
+server: ESF
+last-modified: Sun, 18 Feb 2018 15:25:02 GMT
+link: <https://fonts.gstatic.com>; rel=preconnect; crossorigin
+cache-control: private, max-age=86400, stale-while-revalidate=604800
+date: Sun, 18 Feb 2018 15:25:02 GMT
+x-frame-options: SAMEORIGIN
+alt-svc: hq=":443"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337; quic=51303335,quic=":443"; ma=2592000; v="41,39,38,37,35"
+content-type: text/css; charset=utf-8
+access-control-allow-origin: *
+timing-allow-origin: *
++ Request 5: https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+URL: https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+Host: cdn.mathjax.org
+IP: 104.24.18.65
+Error/Status Code: 200
+Priority: MEDIUM
+Protocol: HTTP/2
+HTTP/2 Stream: 1, weight 220, depends on 0
+Initiated By: https://acc.digital/ line 202
+Client Port: 35534
+Request Start: 1.596 s
+DNS Lookup: 50 ms
+Initial Connection: 32 ms
+Time to First Byte: 37 ms
+Content Download: 20 ms
+Bytes In (downloaded): 1.4 KB
+Uncompressed Size: 1.6 KB
+Bytes Out (uploaded): 0.4 KB
+Request Headers:
+
+:path: /mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+accept-language: en-US,en;q=0.9
+accept-encoding: gzip, deflate, br
+accept: */*
+user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+:scheme: https
+referer: https://acc.digital/
+:method: GET
+:authority: cdn.mathjax.org
+Response Headers:
+
+cf-cache-status: HIT
+vary: Accept-Encoding
+x-goog-generation: 1493911617315000
+cf-ray: 3ef1ff2dcbfe56ff-IAD
+etag: W/"8bafcfb6872e60dd315531cc5a91a521"
+cache-control: public, max-age=16070400
+status: 200
+access-control-expose-headers: *, Content-Length, Date, Server, Transfer-Encoding, X-GUploader-UploadID, X-Google-GFE-Backend-Request-Cost, X-Google-GFE-Cloud-Project-Number, X-Google-GFE-Load-Report, X-Google-Trace
+x-goog-stored-content-length: 1657
+set-cookie: __cfduid=dcf544587012c116fe0ff39250bae189e1518967503; expires=Mon, 18-Feb-19 15:25:03 GMT; path=/; domain=.mathjax.org; HttpOnly
+expires: Thu, 23 Aug 2018 15:25:03 GMT
+last-modified: Thu, 04 May 2017 15:26:57 GMT
+date: Sun, 18 Feb 2018 15:25:03 GMT
+x-goog-hash: crc32c=2urwGw==
+x-goog-hash: md5=i6/PtocuYN0xVTHMWpGlIQ==
+access-control-allow-origin: *
+x-goog-storage-class: STANDARD
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+x-goog-metageneration: 1
+content-encoding: br
+server: cloudflare
+x-goog-stored-content-encoding: identity
+x-guploader-uploadid: AEnB2Uo5BAD6SHu2BxjkxvwNFXiMbmveAE6u4p9q7xx3yhbC-A3KfDbYv__ocMpXWVL0CChYwgc5Y93CBpUNGhgGKpMBKRd-rw
+content-type: application/javascript
++ Request 6: https://acc.digital/wp-content/plugins/read-more-without-refresh/style.css?ver=4.7.6
+URL: https://acc.digital/wp-content/plugins/read-more-without-refresh/style.css?ver=4.7.6
+Host: acc.digital
+IP: 94.130.104.144
+Error/Status Code: 200
+Priority: HIGHEST
+Protocol: http/1.1
+Initiated By: https://acc.digital/ line 32
+Client Port: 35930
+Request Start: 1.674 s
+Time to First Byte: 127 ms
+Bytes In (downloaded): 0.6 KB
+Uncompressed Size: 0.3 KB
+Bytes Out (uploaded): 0.4 KB
+Request Headers:
+
+GET /wp-content/plugins/read-more-without-refresh/style.css?ver=4.7.6 HTTP/1.1
+Host: acc.digital
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: text/css,*/*;q=0.1
+Referer: https://acc.digital/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Response Headers:
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:03 GMT
+Content-Type: text/css
+Content-Length: 342
+Connection: keep-alive
+X-Accel-Version: 0.01
+Last-Modified: Mon, 09 Oct 2017 06:38:28 GMT
+ETag: "15a060f-156-55b17702e2100"
+Accept-Ranges: bytes
+X-Powered-By: PleskLin
++ Request 7: https://acc.digital/wp-content/themes/vmag/style.css?ver=1.0.1
+URL: https://acc.digital/wp-content/themes/vmag/style.css?ver=1.0.1
+Host: acc.digital
+IP: 94.130.104.144
+Error/Status Code: 200
+Priority: HIGHEST
+Protocol: http/1.1
+Initiated By: https://acc.digital/ line 34
+Client Port: 35932
+Request Start: 1.685 s
+Time to First Byte: 423 ms
+Content Download: 462 ms
+Bytes In (downloaded): 90.7 KB
+Uncompressed Size: 90.4 KB
+Bytes Out (uploaded): 0.4 KB
+Request Headers:
+
+GET /wp-content/themes/vmag/style.css?ver=1.0.1 HTTP/1.1
+Host: acc.digital
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: text/css,*/*;q=0.1
+Referer: https://acc.digital/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Response Headers:
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:03 GMT
+Content-Type: text/css
+Content-Length: 92586
+Last-Modified: Mon, 09 Oct 2017 07:31:20 GMT
+Connection: keep-alive
+ETag: "59db25c8-169aa"
+X-Powered-By: PleskLin
+Accept-Ranges: bytes
++ Request 8: https://acc.digital/wp-content/themes/vmag/css/lightslider.css?ver=1.1.5
+URL: https://acc.digital/wp-content/themes/vmag/css/lightslider.css?ver=1.1.5
+Host: acc.digital
+IP: 94.130.104.144
+Error/Status Code: 200
+Priority: HIGHEST
+Protocol: http/1.1
+Initiated By: https://acc.digital/ line 35
+Client Port: 35934
+Request Start: 1.692 s
+Initial Connection: 127 ms
+Time to First Byte: 129 ms
+Content Download: 1 ms
+Bytes In (downloaded): 8.2 KB
+Uncompressed Size: 7.9 KB
+Bytes Out (uploaded): 0.4 KB
+Request Headers:
+
+GET /wp-content/themes/vmag/css/lightslider.css?ver=1.1.5 HTTP/1.1
+Host: acc.digital
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: text/css,*/*;q=0.1
+Referer: https://acc.digital/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Response Headers:
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:03 GMT
+Content-Type: text/css
+Content-Length: 8120
+Last-Modified: Mon, 09 Oct 2017 07:32:24 GMT
+Connection: keep-alive
+ETag: "59db2608-1fb8"
+X-Powered-By: PleskLin
+Accept-Ranges: bytes
++ Request 9: https://acc.digital/wp-content/themes/vmag/css/font-awesome.css?ver=4.5.0
+URL: https://acc.digital/wp-content/themes/vmag/css/font-awesome.css?ver=4.5.0
+Host: acc.digital
+IP: 94.130.104.144
+Error/Status Code: 200
+Priority: HIGHEST
+Protocol: http/1.1
+Initiated By: https://acc.digital/ line 36
+Client Port: 35938
+Request Start: 1.702 s
+Initial Connection: 122 ms
+Time to First Byte: 253 ms
+Content Download: 36 ms
+Bytes In (downloaded): 32.7 KB
+Uncompressed Size: 32.5 KB
+Bytes Out (uploaded): 0.4 KB
+Request Headers:
+
+GET /wp-content/themes/vmag/css/font-awesome.css?ver=4.5.0 HTTP/1.1
+Host: acc.digital
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: text/css,*/*;q=0.1
+Referer: https://acc.digital/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Response Headers:
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:03 GMT
+Content-Type: text/css
+Content-Length: 33233
+Last-Modified: Mon, 09 Oct 2017 07:32:26 GMT
+Connection: keep-alive
+ETag: "59db260a-81d1"
+X-Powered-By: PleskLin
+Accept-Ranges: bytes
++ Request 10: https://acc.digital/wp-content/themes/vmag/css/animate.css?ver=3.5.1
+URL: https://acc.digital/wp-content/themes/vmag/css/animate.css?ver=3.5.1
+Host: acc.digital
+IP: 94.130.104.144
+Error/Status Code: 200
+Priority: HIGHEST
+Protocol: http/1.1
+Initiated By: https://acc.digital/ line 37
+Client Port: 35936
+Request Start: 1.702 s
+Initial Connection: 123 ms
+Time to First Byte: 255 ms
+Content Download: 255 ms
+Bytes In (downloaded): 70.8 KB
+Uncompressed Size: 70.6 KB
+Bytes Out (uploaded): 0.4 KB
+Request Headers:
+
+GET /wp-content/themes/vmag/css/animate.css?ver=3.5.1 HTTP/1.1
+Host: acc.digital
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: text/css,*/*;q=0.1
+Referer: https://acc.digital/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Response Headers:
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:03 GMT
+Content-Type: text/css
+Content-Length: 72259
+Last-Modified: Mon, 09 Oct 2017 07:32:32 GMT
+Connection: keep-alive
+ETag: "59db2610-11a43"
+X-Powered-By: PleskLin
+Accept-Ranges: bytes
++ Request 11: https://acc.digital/wp-content/themes/vmag/css/responsive.css?ver=1.0.1
+URL: https://acc.digital/wp-content/themes/vmag/css/responsive.css?ver=1.0.1
+Host: acc.digital
+IP: 94.130.104.144
+Error/Status Code: 200
+Priority: HIGHEST
+Protocol: http/1.1
+Initiated By: https://acc.digital/ line 38
+Client Port: 35930
+Request Start: 1.803 s
+Time to First Byte: 129 ms
+Content Download: 2 ms
+Bytes In (downloaded): 14.3 KB
+Uncompressed Size: 14.1 KB
+Bytes Out (uploaded): 0.4 KB
+Request Headers:
+
+GET /wp-content/themes/vmag/css/responsive.css?ver=1.0.1 HTTP/1.1
+Host: acc.digital
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: text/css,*/*;q=0.1
+Referer: https://acc.digital/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Response Headers:
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:03 GMT
+Content-Type: text/css
+Content-Length: 14437
+Last-Modified: Mon, 09 Oct 2017 07:32:22 GMT
+Connection: keep-alive
+ETag: "59db2606-3865"
+X-Powered-By: PleskLin
+Accept-Ranges: bytes
++ Request 12: https://acc.digital/wp-includes/js/jquery/jquery.js?ver=1.12.4
+URL: https://acc.digital/wp-includes/js/jquery/jquery.js?ver=1.12.4
+Host: acc.digital
+IP: 94.130.104.144
+Error/Status Code: 200
+Priority: MEDIUM
+Protocol: http/1.1
+Initiated By: https://acc.digital/ line 39
+Client Port: 35934
+Request Start: 1.823 s
+Time to First Byte: 253 ms
+Content Download: 478 ms
+Bytes In (downloaded): 95.2 KB
+Uncompressed Size: 94.9 KB
+Bytes Out (uploaded): 0.3 KB
+Request Headers:
+
+GET /wp-includes/js/jquery/jquery.js?ver=1.12.4 HTTP/1.1
+Host: acc.digital
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: */*
+Referer: https://acc.digital/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Response Headers:
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:03 GMT
+Content-Type: text/javascript
+Content-Length: 97184
+Last-Modified: Tue, 19 Dec 2017 07:20:50 GMT
+Connection: keep-alive
+ETag: "5a38bdd2-17ba0"
+X-Powered-By: PleskLin
+Accept-Ranges: bytes
++ Request 13: https://acc.digital/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1
+URL: https://acc.digital/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1
+Host: acc.digital
+IP: 94.130.104.144
+Error/Status Code: 200
+Priority: MEDIUM
+Protocol: http/1.1
+Initiated By: https://acc.digital/ line 40
+Client Port: 35940
+Request Start: 1.890 s
+Initial Connection: 232 ms
+Time to First Byte: 216 ms
+Content Download: 3 ms
+Bytes In (downloaded): 10.1 KB
+Uncompressed Size: 9.8 KB
+Bytes Out (uploaded): 0.4 KB
+Request Headers:
+
+GET /wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1 HTTP/1.1
+Host: acc.digital
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: */*
+Referer: https://acc.digital/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Response Headers:
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:03 GMT
+Content-Type: text/javascript
+Content-Length: 10056
+Last-Modified: Tue, 19 Dec 2017 07:20:36 GMT
+Connection: keep-alive
+ETag: "5a38bdc4-2748"
+X-Powered-By: PleskLin
+Accept-Ranges: bytes
++ Request 14: https://acc.digital/wp-content/plugins/read-more-right-here/js/wt_rmrh.js?ver=4.7.6
+URL: https://acc.digital/wp-content/plugins/read-more-right-here/js/wt_rmrh.js?ver=4.7.6
+Host: acc.digital
+IP: 94.130.104.144
+Error/Status Code: 200
+Priority: MEDIUM
+Protocol: http/1.1
+Initiated By: https://acc.digital/ line 46
+Client Port: 35930
+Request Start: 1.934 s
+Time to First Byte: 127 ms
+Content Download: 1 ms
+Bytes In (downloaded): 4.6 KB
+Uncompressed Size: 4.4 KB
+Bytes Out (uploaded): 0.4 KB
+Request Headers:
+
+GET /wp-content/plugins/read-more-right-here/js/wt_rmrh.js?ver=4.7.6 HTTP/1.1
+Host: acc.digital
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: */*
+Referer: https://acc.digital/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Response Headers:
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:03 GMT
+Content-Type: text/javascript
+Content-Length: 4457
+Last-Modified: Mon, 09 Oct 2017 06:38:26 GMT
+Connection: keep-alive
+ETag: "59db1962-1169"
+X-Powered-By: PleskLin
+Accept-Ranges: bytes
++ Request 15: https://acc.digital/wp-content/plugins/anything-popup/anything-popup.js?ver=4.7.6
+URL: https://acc.digital/wp-content/plugins/anything-popup/anything-popup.js?ver=4.7.6
+Host: acc.digital
+IP: 94.130.104.144
+Error/Status Code: 200
+Priority: MEDIUM
+Protocol: http/1.1
+Initiated By: https://acc.digital/ line 47
+Client Port: 35938
+Request Start: 1.992 s
+Time to First Byte: 129 ms
+Content Download: 1 ms
+Bytes In (downloaded): 7.2 KB
+Uncompressed Size: 6.9 KB
+Bytes Out (uploaded): 0.4 KB
+Request Headers:
+
+GET /wp-content/plugins/anything-popup/anything-popup.js?ver=4.7.6 HTTP/1.1
+Host: acc.digital
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: */*
+Referer: https://acc.digital/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Response Headers:
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:03 GMT
+Content-Type: text/javascript
+Content-Length: 7078
+Last-Modified: Mon, 09 Oct 2017 04:21:44 GMT
+Connection: keep-alive
+ETag: "59daf958-1ba6"
+X-Powered-By: PleskLin
+Accept-Ranges: bytes
++ Request 16: https://acc.digital/wp-content/themes/vmag/js/lightslider.js?ver=1.1.5
+URL: https://acc.digital/wp-content/themes/vmag/js/lightslider.js?ver=1.1.5
+Host: acc.digital
+IP: 94.130.104.144
+Error/Status Code: 200
+Priority: LOW
+Protocol: http/1.1
+Initiated By: https://acc.digital/ line 738
+Client Port: 35934
+Request Start: 2.556 s
+Time to First Byte: 129 ms
+Content Download: 3 ms
+Bytes In (downloaded): 47.3 KB
+Uncompressed Size: 47.1 KB
+Bytes Out (uploaded): 0.3 KB
+Request Headers:
+
+GET /wp-content/themes/vmag/js/lightslider.js?ver=1.1.5 HTTP/1.1
+Host: acc.digital
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: */*
+Referer: https://acc.digital/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Response Headers:
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:04 GMT
+Content-Type: text/javascript
+Content-Length: 48211
+Last-Modified: Mon, 09 Oct 2017 07:35:02 GMT
+Connection: keep-alive
+ETag: "59db26a6-bc53"
+X-Powered-By: PleskLin
+Accept-Ranges: bytes
++ Request 17: https://acc.digital/wp-content/themes/vmag/js/wow.js?ver=1.1.2
+URL: https://acc.digital/wp-content/themes/vmag/js/wow.js?ver=1.1.2
+Host: acc.digital
+IP: 94.130.104.144
+Error/Status Code: 200
+Priority: MEDIUM
+Protocol: http/1.1
+Initiated By: https://acc.digital/ line 739
+Client Port: 35932
+Request Start: 2.630 s
+Time to First Byte: 231 ms
+Content Download: 20 ms
+Bytes In (downloaded): 15.4 KB
+Uncompressed Size: 15.2 KB
+Bytes Out (uploaded): 0.3 KB
+Request Headers:
+
+GET /wp-content/themes/vmag/js/wow.js?ver=1.1.2 HTTP/1.1
+Host: acc.digital
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: */*
+Referer: https://acc.digital/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Response Headers:
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:04 GMT
+Content-Type: text/javascript
+Content-Length: 15553
+Last-Modified: Mon, 09 Oct 2017 07:34:58 GMT
+Connection: keep-alive
+ETag: "59db26a2-3cc1"
+X-Powered-By: PleskLin
+Accept-Ranges: bytes
++ Request 18: https://acc.digital/wp-content/uploads/2017/06/accsmaga1_edited.png
+URL: https://acc.digital/wp-content/uploads/2017/06/accsmaga1_edited.png
+Host: acc.digital
+IP: 94.130.104.144
+Error/Status Code: 200
+Priority: MEDIUM
+Protocol: http/1.1
+Initiated By: https://acc.digital/ line 224
+Client Port: 35940
+Request Start: 2.631 s
+Time to First Byte: 499 ms
+Content Download: 2 ms
+Bytes In (downloaded): 15.7 KB
+Uncompressed Size: 15.4 KB
+Bytes Out (uploaded): 0.4 KB
+Request Headers:
+
+GET /wp-content/uploads/2017/06/accsmaga1_edited.png HTTP/1.1
+Host: acc.digital
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://acc.digital/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Response Headers:
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:04 GMT
+Content-Type: image/png
+Content-Length: 15810
+Last-Modified: Tue, 19 Dec 2017 10:12:48 GMT
+Connection: keep-alive
+ETag: "5a38e620-3dc2"
+X-Powered-By: PleskLin
+Accept-Ranges: bytes
++ Request 19: http://acc.digital/wp-content/uploads/2017/06/ACCS-HR-logo_white.png
+URL: http://acc.digital/wp-content/uploads/2017/06/ACCS-HR-logo_white.png
+Host: acc.digital
+IP: 94.130.104.144
+Error/Status Code: 301
+Priority: MEDIUM
+Protocol: http/1.1
+Initiated By: https://acc.digital/ line 216
+Client Port: 52716
+Request Start: 2.631 s
+Time to First Byte: 130 ms
+Bytes In (downloaded): 0.2 KB
+Bytes Out (uploaded): 0.3 KB
+Request Headers:
+
+GET /wp-content/uploads/2017/06/ACCS-HR-logo_white.png HTTP/1.1
+Host: acc.digital
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Response Headers:
+
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:04 GMT
+Content-Type: text/html
+Content-Length: 178
+Connection: keep-alive
+Location: https://acc.digital/wp-content/uploads/2017/06/ACCS-HR-logo_white.png
++ Request 20: https://acc.digital/wp-content/themes/vmag/js/vmag-custom.js?ver=1.0.1
+URL: https://acc.digital/wp-content/themes/vmag/js/vmag-custom.js?ver=1.0.1
+Host: acc.digital
+IP: 94.130.104.144
+Error/Status Code: 200
+Priority: LOW
+Protocol: http/1.1
+Initiated By: https://acc.digital/ line 745
+Client Port: 35936
+Request Start: 2.631 s
+Time to First Byte: 137 ms
+Content Download: 1 ms
+Bytes In (downloaded): 3.9 KB
+Uncompressed Size: 3.6 KB
+Bytes Out (uploaded): 0.3 KB
+Request Headers:
+
+GET /wp-content/themes/vmag/js/vmag-custom.js?ver=1.0.1 HTTP/1.1
+Host: acc.digital
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: */*
+Referer: https://acc.digital/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Response Headers:
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:04 GMT
+Content-Type: text/javascript
+Content-Length: 3720
+Last-Modified: Mon, 09 Oct 2017 07:35:00 GMT
+Connection: keep-alive
+ETag: "59db26a4-e88"
+X-Powered-By: PleskLin
+Accept-Ranges: bytes
++ Request 21: https://acc.digital/wp-includes/js/wp-embed.min.js?ver=4.7.6
+URL: https://acc.digital/wp-includes/js/wp-embed.min.js?ver=4.7.6
+Host: acc.digital
+IP: 94.130.104.144
+Error/Status Code: 200
+Priority: LOW
+Protocol: http/1.1
+Initiated By: https://acc.digital/ line 746
+Client Port: 35938
+Request Start: 2.631 s
+Time to First Byte: 134 ms
+Content Download: 1 ms
+Bytes In (downloaded): 1.6 KB
+Uncompressed Size: 1.4 KB
+Bytes Out (uploaded): 0.3 KB
+Request Headers:
+
+GET /wp-includes/js/wp-embed.min.js?ver=4.7.6 HTTP/1.1
+Host: acc.digital
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: */*
+Referer: https://acc.digital/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Response Headers:
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:04 GMT
+Content-Type: text/javascript
+Content-Length: 1398
+Last-Modified: Tue, 19 Dec 2017 07:15:54 GMT
+Connection: keep-alive
+ETag: "5a38bcaa-576"
+X-Powered-By: PleskLin
+Accept-Ranges: bytes
++ Request 22: https://acc.digital/wp-content/uploads/2017/12/geospacial-1-534x464.jpg
+URL: https://acc.digital/wp-content/uploads/2017/12/geospacial-1-534x464.jpg
+Host: acc.digital
+IP: 94.130.104.144
+Error/Status Code: 200
+Priority: MEDIUM
+Protocol: http/1.1
+Initiated By: https://acc.digital/ line 309
+Client Port: 35930
+Request Start: 2.632 s
+Time to First Byte: 256 ms
+Content Download: 168 ms
+Bytes In (downloaded): 53.1 KB
+Uncompressed Size: 52.9 KB
+Bytes Out (uploaded): 0.4 KB
+Request Headers:
+
+GET /wp-content/uploads/2017/12/geospacial-1-534x464.jpg HTTP/1.1
+Host: acc.digital
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://acc.digital/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Response Headers:
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:04 GMT
+Content-Type: image/jpeg
+Content-Length: 54144
+Last-Modified: Fri, 29 Dec 2017 11:17:48 GMT
+Connection: keep-alive
+ETag: "5a46245c-d380"
+X-Powered-By: PleskLin
+Accept-Ranges: bytes
++ Request 23: https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0b.woff2
+URL: https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0b.woff2
+Host: fonts.gstatic.com
+IP: 172.217.6.227
+Error/Status Code: 200
+Priority: HIGHEST
+Protocol: HTTP/2
+HTTP/2 Stream: 1, weight 256, depends on 0
+Initiated By: https://acc.digital/ line 738
+Client Port: 42270
+Request Start: 2.646 s
+DNS Lookup: 25 ms
+Initial Connection: 39 ms
+Time to First Byte: 42 ms
+Content Download: 1 ms
+Bytes In (downloaded): 14.0 KB
+Uncompressed Size: 13.7 KB
+Bytes Out (uploaded): 0.5 KB
+Request Headers:
+
+origin: https://acc.digital
+:path: /s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0b.woff2
+accept-language: en-US,en;q=0.9
+accept-encoding: gzip, deflate, br
+accept: */*
+user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+:scheme: https
+referer: https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C600%2C700%2C400italic%2C300%7CRoboto%3A400%2C500%2C700%2C300%2C400italic&ver=4.7.6
+:method: GET
+:authority: fonts.gstatic.com
+Response Headers:
+
+status: 200
+content-length: 14048
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+age: 282590
+expires: Fri, 15 Feb 2019 08:55:14 GMT
+server: sffe
+last-modified: Wed, 11 Oct 2017 21:49:43 GMT
+cache-control: public, max-age=31536000
+date: Thu, 15 Feb 2018 08:55:14 GMT
+access-control-allow-origin: *
+alt-svc: hq=":443"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337; quic=51303335,quic=":443"; ma=2592000; v="41,39,38,37,35"
+content-type: font/woff2
+accept-ranges: bytes
+timing-allow-origin: *
++ Request 24: https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOUuhp.woff2
+URL: https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOUuhp.woff2
+Host: fonts.gstatic.com
+IP: 172.217.6.227
+Error/Status Code: 200
+Priority: HIGHEST
+Protocol: HTTP/2
+HTTP/2 Stream: 3, weight 256, depends on 1
+Initiated By: https://acc.digital/ line 738
+Request Start: 2.648 s
+Time to First Byte: 42 ms
+Content Download: 44 ms
+Bytes In (downloaded): 14.5 KB
+Uncompressed Size: 14.4 KB
+Bytes Out (uploaded): 0.5 KB
+Request Headers:
+
+origin: https://acc.digital
+:path: /s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOUuhp.woff2
+accept-language: en-US,en;q=0.9
+accept-encoding: gzip, deflate, br
+accept: */*
+user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+:scheme: https
+referer: https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C600%2C700%2C400italic%2C300%7CRoboto%3A400%2C500%2C700%2C300%2C400italic&ver=4.7.6
+:method: GET
+:authority: fonts.gstatic.com
+Response Headers:
+
+status: 200
+content-length: 14720
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+age: 278247
+expires: Fri, 15 Feb 2019 10:07:37 GMT
+server: sffe
+last-modified: Wed, 11 Oct 2017 21:49:43 GMT
+cache-control: public, max-age=31536000
+date: Thu, 15 Feb 2018 10:07:37 GMT
+access-control-allow-origin: *
+alt-svc: hq=":443"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337; quic=51303335,quic=":443"; ma=2592000; v="41,39,38,37,35"
+content-type: font/woff2
+accept-ranges: bytes
+timing-allow-origin: *
++ Request 25: https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBBc4.woff2
+URL: https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBBc4.woff2
+Host: fonts.gstatic.com
+IP: 172.217.6.227
+Error/Status Code: 200
+Priority: HIGHEST
+Protocol: HTTP/2
+HTTP/2 Stream: 5, weight 256, depends on 3
+Initiated By: https://acc.digital/ line 738
+Request Start: 2.655 s
+Time to First Byte: 79 ms
+Content Download: 10 ms
+Bytes In (downloaded): 15.3 KB
+Uncompressed Size: 15.2 KB
+Bytes Out (uploaded): 0.5 KB
+Request Headers:
+
+origin: https://acc.digital
+:path: /s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBBc4.woff2
+accept-language: en-US,en;q=0.9
+accept-encoding: gzip, deflate, br
+accept: */*
+user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+:scheme: https
+referer: https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C600%2C700%2C400italic%2C300%7CRoboto%3A400%2C500%2C700%2C300%2C400italic&ver=4.7.6
+:method: GET
+:authority: fonts.gstatic.com
+Response Headers:
+
+status: 200
+content-length: 15552
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+age: 278286
+expires: Fri, 15 Feb 2019 10:06:58 GMT
+server: sffe
+last-modified: Mon, 16 Oct 2017 17:33:02 GMT
+cache-control: public, max-age=31536000
+date: Thu, 15 Feb 2018 10:06:58 GMT
+access-control-allow-origin: *
+alt-svc: hq=":443"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337; quic=51303335,quic=":443"; ma=2592000; v="41,39,38,37,35"
+content-type: font/woff2
+accept-ranges: bytes
+timing-allow-origin: *
++ Request 26: https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2
+URL: https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2
+Host: fonts.gstatic.com
+IP: 172.217.6.227
+Error/Status Code: 200
+Priority: HIGHEST
+Protocol: HTTP/2
+HTTP/2 Stream: 7, weight 256, depends on 5
+Initiated By: https://acc.digital/ line 738
+Request Start: 2.663 s
+Time to First Byte: 82 ms
+Content Download: 22 ms
+Bytes In (downloaded): 15.1 KB
+Uncompressed Size: 15.0 KB
+Bytes Out (uploaded): 0.5 KB
+Request Headers:
+
+origin: https://acc.digital
+:path: /s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2
+accept-language: en-US,en;q=0.9
+accept-encoding: gzip, deflate, br
+accept: */*
+user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+:scheme: https
+referer: https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C600%2C700%2C400italic%2C300%7CRoboto%3A400%2C500%2C700%2C300%2C400italic&ver=4.7.6
+:method: GET
+:authority: fonts.gstatic.com
+Response Headers:
+
+status: 200
+content-length: 15344
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+age: 278276
+expires: Fri, 15 Feb 2019 10:07:08 GMT
+server: sffe
+last-modified: Mon, 16 Oct 2017 17:32:55 GMT
+cache-control: public, max-age=31536000
+date: Thu, 15 Feb 2018 10:07:08 GMT
+access-control-allow-origin: *
+alt-svc: hq=":443"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337; quic=51303335,quic=":443"; ma=2592000; v="41,39,38,37,35"
+content-type: font/woff2
+accept-ranges: bytes
+timing-allow-origin: *
++ Request 27: https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlfBBc4.woff2
+URL: https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlfBBc4.woff2
+Host: fonts.gstatic.com
+IP: 172.217.6.227
+Error/Status Code: 200
+Priority: HIGHEST
+Protocol: HTTP/2
+HTTP/2 Stream: 9, weight 256, depends on 7
+Initiated By: https://acc.digital/ line 738
+Request Start: 2.669 s
+Time to First Byte: 98 ms
+Content Download: 7 ms
+Bytes In (downloaded): 15.2 KB
+Uncompressed Size: 15.1 KB
+Bytes Out (uploaded): 0.5 KB
+Request Headers:
+
+origin: https://acc.digital
+:path: /s/roboto/v18/KFOlCnqEu92Fr1MmWUlfBBc4.woff2
+accept-language: en-US,en;q=0.9
+accept-encoding: gzip, deflate, br
+accept: */*
+user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+:scheme: https
+referer: https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C600%2C700%2C400italic%2C300%7CRoboto%3A400%2C500%2C700%2C300%2C400italic&ver=4.7.6
+:method: GET
+:authority: fonts.gstatic.com
+Response Headers:
+
+status: 200
+content-length: 15436
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+age: 278276
+expires: Fri, 15 Feb 2019 10:07:08 GMT
+server: sffe
+last-modified: Mon, 16 Oct 2017 17:33:12 GMT
+cache-control: public, max-age=31536000
+date: Thu, 15 Feb 2018 10:07:08 GMT
+access-control-allow-origin: *
+alt-svc: hq=":443"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337; quic=51303335,quic=":443"; ma=2592000; v="41,39,38,37,35"
+content-type: font/woff2
+accept-ranges: bytes
+timing-allow-origin: *
++ Request 28: https://acc.digital/wp-content/themes/vmag/fonts/fontawesome-webfont.woff2?v=4.5.0
+URL: https://acc.digital/wp-content/themes/vmag/fonts/fontawesome-webfont.woff2?v=4.5.0
+Host: acc.digital
+IP: 94.130.104.144
+Error/Status Code: 200
+Priority: HIGHEST
+Protocol: http/1.1
+Initiated By: https://acc.digital/ line 738
+Client Port: 35934
+Request Start: 2.692 s
+Time to First Byte: 132 ms
+Content Download: 194 ms
+Bytes In (downloaded): 65.3 KB
+Uncompressed Size: 65.1 KB
+Bytes Out (uploaded): 0.4 KB
+Request Headers:
+
+GET /wp-content/themes/vmag/fonts/fontawesome-webfont.woff2?v=4.5.0 HTTP/1.1
+Host: acc.digital
+Connection: keep-alive
+Origin: https://acc.digital
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: */*
+Referer: https://acc.digital/wp-content/themes/vmag/css/font-awesome.css?ver=4.5.0
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Response Headers:
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:04 GMT
+Content-Type: text/plain
+Content-Length: 66624
+Last-Modified: Mon, 09 Oct 2017 07:32:36 GMT
+Connection: keep-alive
+ETag: "59db2614-10440"
+X-Powered-By: PleskLin
+Accept-Ranges: bytes
++ Request 29: http://acc.digital/wp-content/uploads/2017/10/TVS-1_new.jpg
+URL: http://acc.digital/wp-content/uploads/2017/10/TVS-1_new.jpg
+Host: acc.digital
+IP: 94.130.104.144
+Error/Status Code: 301
+Priority: MEDIUM
+Protocol: http/1.1
+Initiated By: https://acc.digital/ line 231
+Client Port: 52716
+Request Start: 2.771 s
+Time to First Byte: 140 ms
+Bytes In (downloaded): 0.2 KB
+Bytes Out (uploaded): 0.3 KB
+Request Headers:
+
+GET /wp-content/uploads/2017/10/TVS-1_new.jpg HTTP/1.1
+Host: acc.digital
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Response Headers:
+
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:04 GMT
+Content-Type: text/html
+Content-Length: 178
+Connection: keep-alive
+Location: https://acc.digital/wp-content/uploads/2017/10/TVS-1_new.jpg
++ Request 30: https://acc.digital/wp-content/uploads/2017/12/posit-1-510x369.jpg
+URL: https://acc.digital/wp-content/uploads/2017/12/posit-1-510x369.jpg
+Host: acc.digital
+IP: 94.130.104.144
+Error/Status Code: 200
+Priority: MEDIUM
+Protocol: http/1.1
+Initiated By: https://acc.digital/ line 363
+Client Port: 35938
+Request Start: 2.780 s
+Time to First Byte: 289 ms
+Content Download: 210 ms
+Bytes In (downloaded): 38.1 KB
+Uncompressed Size: 37.8 KB
+Bytes Out (uploaded): 0.4 KB
+Request Headers:
+
+GET /wp-content/uploads/2017/12/posit-1-510x369.jpg HTTP/1.1
+Host: acc.digital
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://acc.digital/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Response Headers:
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:04 GMT
+Content-Type: image/jpeg
+Content-Length: 38753
+Last-Modified: Sat, 30 Dec 2017 05:53:04 GMT
+Connection: keep-alive
+ETag: "5a4729c0-9761"
+X-Powered-By: PleskLin
+Accept-Ranges: bytes
++ Request 31: https://acc.digital/wp-content/uploads/2017/12/shalab-510x369.jpg
+URL: https://acc.digital/wp-content/uploads/2017/12/shalab-510x369.jpg
+Host: acc.digital
+IP: 94.130.104.144
+Error/Status Code: 200
+Priority: MEDIUM
+Protocol: http/1.1
+Initiated By: https://acc.digital/ line 374
+Client Port: 35936
+Request Start: 2.781 s
+Time to First Byte: 185 ms
+Content Download: 368 ms
+Bytes In (downloaded): 51.5 KB
+Uncompressed Size: 51.2 KB
+Bytes Out (uploaded): 0.4 KB
+Request Headers:
+
+GET /wp-content/uploads/2017/12/shalab-510x369.jpg HTTP/1.1
+Host: acc.digital
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://acc.digital/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Response Headers:
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:04 GMT
+Content-Type: image/jpeg
+Content-Length: 52462
+Last-Modified: Wed, 27 Dec 2017 08:28:52 GMT
+Connection: keep-alive
+ETag: "5a4359c4-ccee"
+X-Powered-By: PleskLin
+Accept-Ranges: bytes
++ Request 32: http://acc.digital/wp-content/uploads/2017/06/ACCS-HR-logo1.png
+URL: http://acc.digital/wp-content/uploads/2017/06/ACCS-HR-logo1.png
+Host: acc.digital
+IP: 94.130.104.144
+Error/Status Code: 301
+Priority: LOWEST
+Protocol: http/1.1
+Initiated By: https://acc.digital/ line 690
+Client Port: 52740
+Request Start: 2.870 s
+Initial Connection: 124 ms
+Time to First Byte: 160 ms
+Bytes In (downloaded): 0.2 KB
+Bytes Out (uploaded): 0.3 KB
+Request Headers:
+
+GET /wp-content/uploads/2017/06/ACCS-HR-logo1.png HTTP/1.1
+Host: acc.digital
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Response Headers:
+
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:04 GMT
+Content-Type: text/html
+Content-Length: 178
+Connection: keep-alive
+Location: https://acc.digital/wp-content/uploads/2017/06/ACCS-HR-logo1.png
++ Request 33: http://acc.digital/wp-content/uploads/2017/06/Silvan.jpg
+URL: http://acc.digital/wp-content/uploads/2017/06/Silvan.jpg
+Host: acc.digital
+IP: 94.130.104.144
+Error/Status Code: 301
+Priority: LOWEST
+Protocol: http/1.1
+Initiated By: https://acc.digital/ line 591
+Client Port: 52738
+Request Start: 2.870 s
+Initial Connection: 127 ms
+Time to First Byte: 161 ms
+Bytes In (downloaded): 0.2 KB
+Bytes Out (uploaded): 0.3 KB
+Request Headers:
+
+GET /wp-content/uploads/2017/06/Silvan.jpg HTTP/1.1
+Host: acc.digital
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Response Headers:
+
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:04 GMT
+Content-Type: text/html
+Content-Length: 178
+Connection: keep-alive
+Location: https://acc.digital/wp-content/uploads/2017/06/Silvan.jpg
++ Request 34: https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+URL: https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+Host: cdnjs.cloudflare.com
+IP: 104.19.195.102
+Error/Status Code: 200
+Priority: LOWEST
+Protocol: HTTP/2
+HTTP/2 Stream: 1, weight 147, depends on 0
+Client Port: 46910
+Request Start: 2.870 s
+DNS Lookup: 35 ms
+Initial Connection: 33 ms
+Time to First Byte: 97 ms
+Content Download: 62 ms
+Bytes In (downloaded): 18.4 KB
+Uncompressed Size: 61.6 KB
+Bytes Out (uploaded): 0.4 KB
+Request Headers:
+
+:path: /ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+accept-language: en-US,en;q=0.9
+accept-encoding: gzip, deflate, br
+accept: */*
+user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+:scheme: https
+referer: https://acc.digital/
+:method: GET
+:authority: cdnjs.cloudflare.com
+Response Headers:
+
+status: 200
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+strict-transport-security: max-age=15780000; includeSubDomains
+content-encoding: br
+cf-cache-status: HIT
+expires: Fri, 08 Feb 2019 15:25:04 GMT
+vary: Accept-Encoding
+server: cloudflare
+last-modified: Tue, 14 Nov 2017 00:32:04 GMT
+cache-control: public, max-age=30672000
+date: Sun, 18 Feb 2018 15:25:04 GMT
+access-control-allow-origin: *
+content-type: application/javascript; charset=utf-8
+cf-ray: 3ef1ff35bd8a9f90-IAD
++ Request 35: https://acc.digital/wp-content/uploads/2017/12/paving_the_way-535x261.jpg
+URL: https://acc.digital/wp-content/uploads/2017/12/paving_the_way-535x261.jpg
+Host: acc.digital
+IP: 94.130.104.144
+Error/Status Code: 200
+Priority: MEDIUM
+Protocol: http/1.1
+Initiated By: https://acc.digital/ line 321
+Client Port: 35932
+Request Start: 2.883 s
+Time to First Byte: 295 ms
+Content Download: 37 ms
+Bytes In (downloaded): 39.4 KB
+Uncompressed Size: 39.1 KB
+Bytes Out (uploaded): 0.4 KB
+Request Headers:
+
+GET /wp-content/uploads/2017/12/paving_the_way-535x261.jpg HTTP/1.1
+Host: acc.digital
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://acc.digital/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Response Headers:
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:04 GMT
+Content-Type: image/jpeg
+Content-Length: 40074
+Last-Modified: Fri, 29 Dec 2017 10:50:16 GMT
+Connection: keep-alive
+ETag: "5a461de8-9c8a"
+X-Powered-By: PleskLin
+Accept-Ranges: bytes
++ Request 36: https://www.google-analytics.com/analytics.js
+URL: https://www.google-analytics.com/analytics.js
+Host: www.google-analytics.com
+IP: 172.217.8.14
+Error/Status Code: 200
+Priority: LOWEST
+Protocol: HTTP/2
+HTTP/2 Stream: 1, weight 147, depends on 0
+Client Port: 59112
+Request Start: 2.885 s
+DNS Lookup: 35 ms
+Initial Connection: 33 ms
+Time to First Byte: 98 ms
+Content Download: 22 ms
+Bytes In (downloaded): 14.6 KB
+Uncompressed Size: 35.1 KB
+Bytes Out (uploaded): 0.3 KB
+Request Headers:
+
+:path: /analytics.js
+accept-language: en-US,en;q=0.9
+accept-encoding: gzip, deflate, br
+accept: */*
+user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+:scheme: https
+referer: https://acc.digital/
+:method: GET
+:authority: www.google-analytics.com
+Response Headers:
+
+status: 200
+content-length: 14597
+strict-transport-security: max-age=10886400; includeSubDomains; preload
+x-content-type-options: nosniff
+content-encoding: gzip
+age: 1003
+expires: Sun, 18 Feb 2018 17:08:21 GMT
+vary: Accept-Encoding
+server: Golfe2
+last-modified: Mon, 13 Nov 2017 20:19:12 GMT
+cache-control: public, max-age=7200
+date: Sun, 18 Feb 2018 15:08:21 GMT
+alt-svc: hq=":443"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337; quic=51303335,quic=":443"; ma=2592000; v="41,39,38,37,35"
+content-type: text/javascript
+timing-allow-origin: *
++ Request 37: http://nellabs.in/staging/acc_digital/wp-content/uploads/2017/12/ad1.jpg
+URL: http://nellabs.in/staging/acc_digital/wp-content/uploads/2017/12/ad1.jpg
+Host: nellabs.in
+IP: 94.130.104.144
+Error/Status Code: 301
+Priority: MEDIUM
+Protocol: http/1.1
+Initiated By: https://acc.digital/ line 457
+Client Port: 52744
+Request Start: 2.886 s
+DNS Lookup: 132 ms
+Initial Connection: 123 ms
+Time to First Byte: 146 ms
+Bytes In (downloaded): 0.2 KB
+Bytes Out (uploaded): 0.4 KB
+Request Headers:
+
+GET /staging/acc_digital/wp-content/uploads/2017/12/ad1.jpg HTTP/1.1
+Host: nellabs.in
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Response Headers:
+
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:04 GMT
+Content-Type: text/html
+Content-Length: 178
+Connection: keep-alive
+Location: https://nellabs.in/staging/acc_digital/wp-content/uploads/2017/12/ad1.jpg
++ Request 38: http://vcnrtech.com/staging/accdigital/wp-content/uploads/2017/10/img12.jpg
+URL: http://vcnrtech.com/staging/accdigital/wp-content/uploads/2017/10/img12.jpg
+Host: vcnrtech.com
+IP: 94.130.104.144
+Error/Status Code: 301
+Priority: MEDIUM
+Protocol: http/1.1
+Initiated By: https://acc.digital/ line 461
+Client Port: 52750
+Request Start: 3.008 s
+DNS Lookup: 126 ms
+Initial Connection: 189 ms
+Time to First Byte: 207 ms
+Bytes In (downloaded): 0.2 KB
+Bytes Out (uploaded): 0.4 KB
+Request Headers:
+
+GET /staging/accdigital/wp-content/uploads/2017/10/img12.jpg HTTP/1.1
+Host: vcnrtech.com
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Response Headers:
+
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:04 GMT
+Content-Type: text/html
+Content-Length: 178
+Connection: keep-alive
+Location: https://vcnrtech.com/staging/accdigital/wp-content/uploads/2017/10/img12.jpg
++ Request 39: https://acc.digital/wp-content/uploads/2017/06/ACCS-HR-logo_white.png
+URL: https://acc.digital/wp-content/uploads/2017/06/ACCS-HR-logo_white.png
+Host: acc.digital
+IP: 94.130.104.144
+Error/Status Code: 200
+Priority: High
+Protocol: http/1.1
+Initiated By: https://acc.digital/ line 216
+Client Port: 35934
+Request Start: 3.019 s
+Time to First Byte: 198 ms
+Content Download: 4 ms
+Bytes In (downloaded): 4.2 KB
+Uncompressed Size: 3.9 KB
+Bytes Out (uploaded): 0.4 KB
+Request Headers:
+
+GET /wp-content/uploads/2017/06/ACCS-HR-logo_white.png HTTP/1.1
+Host: acc.digital
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Response Headers:
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:04 GMT
+Content-Type: image/png
+Content-Length: 4036
+Last-Modified: Tue, 19 Dec 2017 10:12:46 GMT
+Connection: keep-alive
+ETag: "5a38e61e-fc4"
+X-Powered-By: PleskLin
+Accept-Ranges: bytes
++ Request 40: https://acc.digital/wp-content/uploads/2017/10/TVS-1_new.jpg
+URL: https://acc.digital/wp-content/uploads/2017/10/TVS-1_new.jpg
+Host: acc.digital
+IP: 94.130.104.144
+Error/Status Code: 200
+Priority: High
+Protocol: http/1.1
+Initiated By: https://acc.digital/ line 231
+Client Port: 35930
+Request Start: 3.058 s
+Time to First Byte: 181 ms
+Content Download: 295 ms
+Bytes In (downloaded): 46.9 KB
+Uncompressed Size: 46.6 KB
+Bytes Out (uploaded): 0.3 KB
+Request Headers:
+
+GET /wp-content/uploads/2017/10/TVS-1_new.jpg HTTP/1.1
+Host: acc.digital
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Response Headers:
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:04 GMT
+Content-Type: image/jpeg
+Content-Length: 47731
+Last-Modified: Tue, 17 Oct 2017 15:51:36 GMT
+Connection: keep-alive
+ETag: "59e62708-ba73"
+X-Powered-By: PleskLin
+Accept-Ranges: bytes
++ Request 41: https://acc.digital/wp-content/uploads/2017/12/Sanjay-Sahay-Photo.jpg
+URL: https://acc.digital/wp-content/uploads/2017/12/Sanjay-Sahay-Photo.jpg
+Host: acc.digital
+IP: 94.130.104.144
+Error/Status Code: 200
+Priority: LOWEST
+Protocol: http/1.1
+Initiated By: https://acc.digital/ line 391
+Client Port: 35940
+Request Start: 3.134 s
+Time to First Byte: 260 ms
+Content Download: 727 ms
+Bytes In (downloaded): 52.7 KB
+Uncompressed Size: 52.5 KB
+Bytes Out (uploaded): 0.4 KB
+Request Headers:
+
+GET /wp-content/uploads/2017/12/Sanjay-Sahay-Photo.jpg HTTP/1.1
+Host: acc.digital
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://acc.digital/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Response Headers:
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:04 GMT
+Content-Type: image/jpeg
+Content-Length: 53724
+Last-Modified: Wed, 27 Dec 2017 12:39:14 GMT
+Connection: keep-alive
+ETag: "5a439472-d1dc"
+X-Powered-By: PleskLin
+Accept-Ranges: bytes
++ Request 42: https://www.google-analytics.com/r/collect?v=1&_v=j66&a=1852779194&t=pageview&_s=1&dl=https%3A%2F%2Facc.digital%2F&dr=http%3A%2F%2F127.0.0.1%3A8888%2Forange.html&ul=en-us&de=UTF-8&dt=A%20Quarterly%20Publication%20of%20ACCS&sd=24-bit&sr=1920x1200&vp=1009x702&je=0&_u=IEBAAEAB~&jid=760210324&gjid=1668446896&cid=1135144302.1518967505&tid=UA-102085740-1&_gid=1544923795.1518967505&_r=1&z=416153621
+URL: https://www.google-analytics.com/r/collect?v=1&_v=j66&a=1852779194&t=pageview&_s=1&dl=https%3A%2F%2Facc.digital%2F&dr=http%3A%2F%2F127.0.0.1%3A8888%2Forange.html&ul=en-us&de=UTF-8&dt=A%20Quarterly%20Publication%20of%20ACCS&sd=24-bit&sr=1920x1200&vp=1009x702&je=0&_u=IEBAAEAB~&jid=760210324&gjid=1668446896&cid=1135144302.1518967505&tid=UA-102085740-1&_gid=1544923795.1518967505&_r=1&z=416153621
+Host: www.google-analytics.com
+IP: 172.217.8.14
+Error/Status Code: 200
+Priority: LOWEST
+Protocol: HTTP/2
+HTTP/2 Stream: 3, weight 147, depends on 0
+Initiated By: https://acc.digital/ line 0
+Request Start: 3.195 s
+Time to First Byte: 140 ms
+Content Download: 1 ms
+Bytes In (downloaded): 0.2 KB
+Uncompressed Size: 0.0 KB
+Bytes Out (uploaded): 0.7 KB
+Request Headers:
+
+:path: /r/collect?v=1&_v=j66&a=1852779194&t=pageview&_s=1&dl=https%3A%2F%2Facc.digital%2F&dr=http%3A%2F%2F127.0.0.1%3A8888%2Forange.html&ul=en-us&de=UTF-8&dt=A%20Quarterly%20Publication%20of%20ACCS&sd=24-bit&sr=1920x1200&vp=1009x702&je=0&_u=IEBAAEAB~&jid=760210324&gjid=1668446896&cid=1135144302.1518967505&tid=UA-102085740-1&_gid=1544923795.1518967505&_r=1&z=416153621
+accept-language: en-US,en;q=0.9
+accept-encoding: gzip, deflate, br
+accept: image/webp,image/apng,image/*,*/*;q=0.8
+user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+:scheme: https
+referer: https://acc.digital/
+:method: GET
+:authority: www.google-analytics.com
+Response Headers:
+
+status: 200
+content-length: 35
+x-content-type-options: nosniff
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+server: Golfe2
+last-modified: Sun, 17 May 1998 03:00:00 GMT
+pragma: no-cache
+cache-control: no-cache, no-store, must-revalidate
+date: Sun, 18 Feb 2018 15:25:04 GMT
+access-control-allow-origin: *
+alt-svc: hq=":443"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337; quic=51303335,quic=":443"; ma=2592000; v="41,39,38,37,35"
+content-type: image/gif
++ Request 43: https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/config/TeX-AMS-MML_HTMLorMML.js?V=2.7.1
+URL: https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/config/TeX-AMS-MML_HTMLorMML.js?V=2.7.1
+Host: cdnjs.cloudflare.com
+IP: 104.19.195.102
+Error/Status Code: 200
+Priority: LOWEST
+Protocol: HTTP/2
+HTTP/2 Stream: 3, weight 147, depends on 0
+Request Start: 3.208 s
+Time to First Byte: 128 ms
+Content Download: 296 ms
+Bytes In (downloaded): 65.4 KB
+Uncompressed Size: 238.0 KB
+Bytes Out (uploaded): 0.4 KB
+Request Headers:
+
+:path: /ajax/libs/mathjax/2.7.1/config/TeX-AMS-MML_HTMLorMML.js?V=2.7.1
+accept-language: en-US,en;q=0.9
+accept-encoding: gzip, deflate, br
+accept: */*
+user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+:scheme: https
+referer: https://acc.digital/
+:method: GET
+:authority: cdnjs.cloudflare.com
+Response Headers:
+
+status: 200
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+strict-transport-security: max-age=15780000; includeSubDomains
+content-encoding: br
+cf-cache-status: HIT
+expires: Fri, 08 Feb 2019 15:25:04 GMT
+vary: Accept-Encoding
+server: cloudflare
+last-modified: Tue, 14 Nov 2017 00:32:04 GMT
+cache-control: public, max-age=30672000
+date: Sun, 18 Feb 2018 15:25:04 GMT
+access-control-allow-origin: *
+content-type: application/javascript; charset=utf-8
+cf-ray: 3ef1ff37eff69f90-IAD
++ Request 44: https://acc.digital/wp-content/uploads/2017/10/sri3.jpg
+URL: https://acc.digital/wp-content/uploads/2017/10/sri3.jpg
+Host: acc.digital
+IP: 94.130.104.144
+Error/Status Code: 200
+Priority: LOWEST
+Protocol: http/1.1
+Initiated By: https://acc.digital/ line 412
+Client Port: 35932
+Request Start: 3.220 s
+Time to First Byte: 426 ms
+Content Download: 749 ms
+Bytes In (downloaded): 54.9 KB
+Uncompressed Size: 54.7 KB
+Bytes Out (uploaded): 0.4 KB
+Request Headers:
+
+GET /wp-content/uploads/2017/10/sri3.jpg HTTP/1.1
+Host: acc.digital
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://acc.digital/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Response Headers:
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:04 GMT
+Content-Type: image/jpeg
+Content-Length: 55988
+Last-Modified: Mon, 16 Oct 2017 13:00:18 GMT
+Connection: keep-alive
+ETag: "59e4ad62-dab4"
+X-Powered-By: PleskLin
+Accept-Ranges: bytes
++ Request 45: https://acc.digital/wp-content/uploads/2017/10/IMG_20170909_101328160-1-510x369.jpg
+URL: https://acc.digital/wp-content/uploads/2017/10/IMG_20170909_101328160-1-510x369.jpg
+Host: acc.digital
+IP: 94.130.104.144
+Error/Status Code: 200
+Priority: LOWEST
+Protocol: http/1.1
+Initiated By: https://acc.digital/ line 433
+Client Port: 35934
+Request Start: 3.222 s
+Time to First Byte: 215 ms
+Content Download: 282 ms
+Bytes In (downloaded): 71.8 KB
+Uncompressed Size: 71.5 KB
+Bytes Out (uploaded): 0.4 KB
+Request Headers:
+
+GET /wp-content/uploads/2017/10/IMG_20170909_101328160-1-510x369.jpg HTTP/1.1
+Host: acc.digital
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://acc.digital/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Response Headers:
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:04 GMT
+Content-Type: image/jpeg
+Content-Length: 73244
+Last-Modified: Thu, 12 Oct 2017 10:46:56 GMT
+Connection: keep-alive
+ETag: "59df4820-11e1c"
+X-Powered-By: PleskLin
+Accept-Ranges: bytes
++ Request 46: https://acc.digital/wp-content/uploads/2017/06/ACCS-HR-logo1.png
+URL: https://acc.digital/wp-content/uploads/2017/06/ACCS-HR-logo1.png
+Host: acc.digital
+IP: 94.130.104.144
+Error/Status Code: 200
+Priority: Low
+Protocol: http/1.1
+Initiated By: https://acc.digital/ line 690
+Client Port: 35938
+Request Start: 3.280 s
+Time to First Byte: 307 ms
+Content Download: 1 ms
+Bytes In (downloaded): 7.8 KB
+Uncompressed Size: 7.6 KB
+Bytes Out (uploaded): 0.3 KB
+Request Headers:
+
+GET /wp-content/uploads/2017/06/ACCS-HR-logo1.png HTTP/1.1
+Host: acc.digital
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Response Headers:
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:04 GMT
+Content-Type: image/png
+Content-Length: 7777
+Last-Modified: Tue, 19 Dec 2017 10:12:46 GMT
+Connection: keep-alive
+ETag: "5a38e61e-1e61"
+X-Powered-By: PleskLin
+Accept-Ranges: bytes
++ Request 47: https://nellabs.in/staging/acc_digital/wp-content/uploads/2017/12/ad1.jpg
+URL: https://nellabs.in/staging/acc_digital/wp-content/uploads/2017/12/ad1.jpg
+Host: nellabs.in
+IP: 94.130.104.144
+Error/Status Code: 200
+Priority: High
+Protocol: http/1.1
+Initiated By: https://acc.digital/ line 457
+Client Port: 35954
+Request Start: 3.283 s
+Initial Connection: 135 ms
+Time to First Byte: 549 ms
+Content Download: 3035 ms
+Bytes In (downloaded): 532.3 KB
+Uncompressed Size: 532.0 KB
+Bytes Out (uploaded): 0.4 KB
+Request Headers:
+
+GET /staging/acc_digital/wp-content/uploads/2017/12/ad1.jpg HTTP/1.1
+Host: nellabs.in
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Response Headers:
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:04 GMT
+Content-Type: image/jpeg
+Content-Length: 544813
+Last-Modified: Mon, 25 Dec 2017 13:43:58 GMT
+Connection: keep-alive
+ETag: "5a41009e-8502d"
+X-Powered-By: PleskLin
+Accept-Ranges: bytes
++ Request 48: https://acc.digital/wp-content/uploads/2017/06/Silvan.jpg
+URL: https://acc.digital/wp-content/uploads/2017/06/Silvan.jpg
+Host: acc.digital
+IP: 94.130.104.144
+Error/Status Code: 200
+Priority: Low
+Protocol: http/1.1
+Initiated By: https://acc.digital/ line 591
+Client Port: 35936
+Request Start: 3.338 s
+Time to First Byte: 878 ms
+Content Download: 588 ms
+Bytes In (downloaded): 66.5 KB
+Uncompressed Size: 66.3 KB
+Bytes Out (uploaded): 0.3 KB
+Request Headers:
+
+GET /wp-content/uploads/2017/06/Silvan.jpg HTTP/1.1
+Host: acc.digital
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Response Headers:
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:04 GMT
+Content-Type: image/jpeg
+Content-Length: 67876
+Last-Modified: Tue, 19 Dec 2017 10:23:28 GMT
+Connection: keep-alive
+ETag: "5a38e8a0-10924"
+X-Powered-By: PleskLin
+Accept-Ranges: bytes
++ Request 49: https://acc.digital/wp-includes/js/wp-emoji-release.min.js?ver=4.7.6
+URL: https://acc.digital/wp-includes/js/wp-emoji-release.min.js?ver=4.7.6
+Host: acc.digital
+IP: 94.130.104.144
+Error/Status Code: 200
+Priority: LOWEST
+Protocol: http/1.1
+Client Port: 35930
+Request Start: 3.535 s
+Time to First Byte: 257 ms
+Content Download: 2 ms
+Bytes In (downloaded): 11.4 KB
+Uncompressed Size: 11.1 KB
+Bytes Out (uploaded): 0.4 KB
+Request Headers:
+
+GET /wp-includes/js/wp-emoji-release.min.js?ver=4.7.6 HTTP/1.1
+Host: acc.digital
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: */*
+Referer: https://acc.digital/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: _ga=GA1.2.1135144302.1518967505; _gid=GA1.2.1544923795.1518967505; _gat=1
+Response Headers:
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:04 GMT
+Content-Type: text/javascript
+Content-Length: 11414
+Last-Modified: Tue, 19 Dec 2017 07:16:08 GMT
+Connection: keep-alive
+ETag: "5a38bcb8-2c96"
+X-Powered-By: PleskLin
+Accept-Ranges: bytes
++ Request 50: https://acc.digital/wp-content/uploads/2017/10/accs_12.jpg
+URL: https://acc.digital/wp-content/uploads/2017/10/accs_12.jpg
+Host: acc.digital
+IP: 94.130.104.144
+Error/Status Code: 200
+Priority: LOWEST
+Protocol: http/1.1
+Initiated By: https://acc.digital/ line 444
+Client Port: 35938
+Request Start: 3.590 s
+Time to First Byte: 230 ms
+Content Download: 306 ms
+Bytes In (downloaded): 45.9 KB
+Uncompressed Size: 45.6 KB
+Bytes Out (uploaded): 0.5 KB
+Request Headers:
+
+GET /wp-content/uploads/2017/10/accs_12.jpg HTTP/1.1
+Host: acc.digital
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://acc.digital/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: _ga=GA1.2.1135144302.1518967505; _gid=GA1.2.1544923795.1518967505; _gat=1
+Response Headers:
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:05 GMT
+Content-Type: image/jpeg
+Content-Length: 46739
+Last-Modified: Mon, 16 Oct 2017 09:38:34 GMT
+Connection: keep-alive
+ETag: "59e47e1a-b693"
+X-Powered-By: PleskLin
+Accept-Ranges: bytes
++ Request 51: https://acc.digital/wp-content/uploads/2017/10/NRM2-1-1-450x369.jpg
+URL: https://acc.digital/wp-content/uploads/2017/10/NRM2-1-1-450x369.jpg
+Host: acc.digital
+IP: 94.130.104.144
+Error/Status Code: 200
+Priority: LOWEST
+Protocol: http/1.1
+Initiated By: https://acc.digital/ line 483
+Client Port: 35934
+Request Start: 3.721 s
+Time to First Byte: 214 ms
+Content Download: 50 ms
+Bytes In (downloaded): 44.3 KB
+Uncompressed Size: 44.1 KB
+Bytes Out (uploaded): 0.5 KB
+Request Headers:
+
+GET /wp-content/uploads/2017/10/NRM2-1-1-450x369.jpg HTTP/1.1
+Host: acc.digital
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://acc.digital/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: _ga=GA1.2.1135144302.1518967505; _gid=GA1.2.1544923795.1518967505; _gat=1
+Response Headers:
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:05 GMT
+Content-Type: image/jpeg
+Content-Length: 45128
+Last-Modified: Thu, 28 Dec 2017 08:02:38 GMT
+Connection: keep-alive
+ETag: "5a44a51e-b048"
+X-Powered-By: PleskLin
+Accept-Ranges: bytes
++ Request 52: https://nellabs.in/staging/acc_digital/wp-content/uploads/2017/12/networking-870x490.jpg
+URL: https://nellabs.in/staging/acc_digital/wp-content/uploads/2017/12/networking-870x490.jpg
+Host: nellabs.in
+IP: 94.130.104.144
+Error/Status Code: 200
+Priority: MEDIUM
+Protocol: http/1.1
+Initiated By: https://acc.digital/ line 337
+Client Port: 35964
+Request Start: 3.721 s
+Initial Connection: 150 ms
+Time to First Byte: 508 ms
+Content Download: 1375 ms
+Bytes In (downloaded): 43.3 KB
+Uncompressed Size: 43.0 KB
+Bytes Out (uploaded): 0.4 KB
+Request Headers:
+
+GET /staging/acc_digital/wp-content/uploads/2017/12/networking-870x490.jpg HTTP/1.1
+Host: nellabs.in
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://acc.digital/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Response Headers:
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:05 GMT
+Content-Type: image/jpeg
+Content-Length: 44058
+Last-Modified: Fri, 29 Dec 2017 10:53:47 GMT
+Connection: keep-alive
+ETag: "5a461ebb-ac1a"
+X-Powered-By: PleskLin
+Accept-Ranges: bytes
++ Request 53: https://acc.digital/wp-content/uploads/2017/10/1472475376-2-450x369.jpg
+URL: https://acc.digital/wp-content/uploads/2017/10/1472475376-2-450x369.jpg
+Host: acc.digital
+IP: 94.130.104.144
+Error/Status Code: 200
+Priority: LOWEST
+Protocol: http/1.1
+Initiated By: https://acc.digital/ line 494
+Client Port: 35930
+Request Start: 3.796 s
+Time to First Byte: 282 ms
+Content Download: 22 ms
+Bytes In (downloaded): 36.9 KB
+Uncompressed Size: 36.6 KB
+Bytes Out (uploaded): 0.5 KB
+Request Headers:
+
+GET /wp-content/uploads/2017/10/1472475376-2-450x369.jpg HTTP/1.1
+Host: acc.digital
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://acc.digital/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: _ga=GA1.2.1135144302.1518967505; _gid=GA1.2.1544923795.1518967505; _gat=1
+Response Headers:
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:05 GMT
+Content-Type: image/jpeg
+Content-Length: 37493
+Last-Modified: Thu, 28 Dec 2017 06:06:24 GMT
+Connection: keep-alive
+ETag: "5a4489e0-9275"
+X-Powered-By: PleskLin
+Accept-Ranges: bytes
++ Request 54: https://acc.digital/wp-content/uploads/2017/10/acs-510x369.jpg
+URL: https://acc.digital/wp-content/uploads/2017/10/acs-510x369.jpg
+Host: acc.digital
+IP: 94.130.104.144
+Error/Status Code: 200
+Priority: LOWEST
+Protocol: http/1.1
+Initiated By: https://acc.digital/ line 513
+Client Port: 35934
+Request Start: 3.986 s
+Time to First Byte: 318 ms
+Content Download: 1402 ms
+Bytes In (downloaded): 69.0 KB
+Uncompressed Size: 68.8 KB
+Bytes Out (uploaded): 0.5 KB
+Request Headers:
+
+GET /wp-content/uploads/2017/10/acs-510x369.jpg HTTP/1.1
+Host: acc.digital
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://acc.digital/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: _ga=GA1.2.1135144302.1518967505; _gid=GA1.2.1544923795.1518967505; _gat=1
+Response Headers:
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:05 GMT
+Content-Type: image/jpeg
+Content-Length: 70441
+Last-Modified: Thu, 12 Oct 2017 09:41:30 GMT
+Connection: keep-alive
+ETag: "59df38ca-11329"
+X-Powered-By: PleskLin
+Accept-Ranges: bytes
++ Request 55: https://vcnrtech.com/staging/accdigital/wp-content/uploads/2017/10/img12.jpg
+URL: https://vcnrtech.com/staging/accdigital/wp-content/uploads/2017/10/img12.jpg
+Host: vcnrtech.com
+IP: 94.130.104.144
+Error/Status Code: 200
+Priority: High
+Protocol: http/1.1
+Initiated By: https://acc.digital/ line 461
+Client Port: 35970
+Request Start: 4.007 s
+Initial Connection: 301 ms
+Time to First Byte: 807 ms
+Content Download: 422 ms
+Bytes In (downloaded): 46.8 KB
+Uncompressed Size: 46.5 KB
+Bytes Out (uploaded): 0.4 KB
+Request Headers:
+
+GET /staging/accdigital/wp-content/uploads/2017/10/img12.jpg HTTP/1.1
+Host: vcnrtech.com
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Response Headers:
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:05 GMT
+Content-Type: image/jpeg
+Content-Length: 47663
+Last-Modified: Mon, 16 Oct 2017 12:40:39 GMT
+Connection: keep-alive
+ETag: "59e4a8c7-ba2f"
+X-Powered-By: PleskLin
+Accept-Ranges: bytes
++ Request 56: https://acc.digital/wp-content/uploads/2017/10/image-510x369.jpg
+URL: https://acc.digital/wp-content/uploads/2017/10/image-510x369.jpg
+Host: acc.digital
+IP: 94.130.104.144
+Error/Status Code: 200
+Priority: LOWEST
+Protocol: http/1.1
+Initiated By: https://acc.digital/ line 525
+Client Port: 35930
+Request Start: 4.102 s
+Time to First Byte: 304 ms
+Content Download: 101 ms
+Bytes In (downloaded): 39.1 KB
+Uncompressed Size: 38.9 KB
+Bytes Out (uploaded): 0.5 KB
+Request Headers:
+
+GET /wp-content/uploads/2017/10/image-510x369.jpg HTTP/1.1
+Host: acc.digital
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://acc.digital/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: _ga=GA1.2.1135144302.1518967505; _gid=GA1.2.1544923795.1518967505; _gat=1
+Response Headers:
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:05 GMT
+Content-Type: image/jpeg
+Content-Length: 39798
+Last-Modified: Mon, 09 Oct 2017 11:48:10 GMT
+Connection: keep-alive
+ETag: "59db61fa-9b76"
+X-Powered-By: PleskLin
+Accept-Ranges: bytes
++ Request 57: https://acc.digital/wp-content/uploads/2017/08/acc1.jpg
+URL: https://acc.digital/wp-content/uploads/2017/08/acc1.jpg
+Host: acc.digital
+IP: 94.130.104.144
+Error/Status Code: 200
+Priority: LOWEST
+Protocol: http/1.1
+Initiated By: https://acc.digital/ line 537
+Client Port: 35940
+Request Start: 4.124 s
+Time to First Byte: 1050 ms
+Content Download: 673 ms
+Bytes In (downloaded): 59.8 KB
+Uncompressed Size: 59.6 KB
+Bytes Out (uploaded): 0.5 KB
+Request Headers:
+
+GET /wp-content/uploads/2017/08/acc1.jpg HTTP/1.1
+Host: acc.digital
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://acc.digital/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: _ga=GA1.2.1135144302.1518967505; _gid=GA1.2.1544923795.1518967505; _gat=1
+Response Headers:
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:05 GMT
+Content-Type: image/jpeg
+Content-Length: 60999
+Last-Modified: Sun, 15 Oct 2017 09:27:56 GMT
+Connection: keep-alive
+ETag: "59e32a1c-ee47"
+X-Powered-By: PleskLin
+Accept-Ranges: bytes
++ Request 58: https://acc.digital/wp-content/uploads/2017/06/class1-510x369.jpg
+URL: https://acc.digital/wp-content/uploads/2017/06/class1-510x369.jpg
+Host: acc.digital
+IP: 94.130.104.144
+Error/Status Code: 200
+Priority: LOWEST
+Protocol: http/1.1
+Initiated By: https://acc.digital/ line 556
+Client Port: 35938
+Request Start: 4.127 s
+Time to First Byte: 381 ms
+Content Download: 319 ms
+Bytes In (downloaded): 52.8 KB
+Uncompressed Size: 52.6 KB
+Bytes Out (uploaded): 0.5 KB
+Request Headers:
+
+GET /wp-content/uploads/2017/06/class1-510x369.jpg HTTP/1.1
+Host: acc.digital
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://acc.digital/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: _ga=GA1.2.1135144302.1518967505; _gid=GA1.2.1544923795.1518967505; _gat=1
+Response Headers:
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:05 GMT
+Content-Type: image/jpeg
+Content-Length: 53846
+Last-Modified: Tue, 19 Dec 2017 10:15:44 GMT
+Connection: keep-alive
+ETag: "5a38e6d0-d256"
+X-Powered-By: PleskLin
+Accept-Ranges: bytes
++ Request 59: https://acc.digital/wp-content/uploads/2017/06/shutterstock_41128852333-510x369.png
+URL: https://acc.digital/wp-content/uploads/2017/06/shutterstock_41128852333-510x369.png
+Host: acc.digital
+IP: 94.130.104.144
+Error/Status Code: 200
+Priority: LOWEST
+Protocol: http/1.1
+Initiated By: https://acc.digital/ line 568
+Client Port: 35932
+Request Start: 4.396 s
+Time to First Byte: 454 ms
+Content Download: 1608 ms
+Bytes In (downloaded): 97.9 KB
+Uncompressed Size: 97.7 KB
+Bytes Out (uploaded): 0.5 KB
+Request Headers:
+
+GET /wp-content/uploads/2017/06/shutterstock_41128852333-510x369.png HTTP/1.1
+Host: acc.digital
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://acc.digital/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: _ga=GA1.2.1135144302.1518967505; _gid=GA1.2.1544923795.1518967505; _gat=1
+Response Headers:
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:05 GMT
+Content-Type: image/png
+Content-Length: 100015
+Last-Modified: Tue, 19 Dec 2017 10:22:08 GMT
+Connection: keep-alive
+ETag: "5a38e850-186af"
+X-Powered-By: PleskLin
+Accept-Ranges: bytes
++ Request 60: https://acc.digital/wp-content/uploads/2017/06/shutterstock1-510x369.png
+URL: https://acc.digital/wp-content/uploads/2017/06/shutterstock1-510x369.png
+Host: acc.digital
+IP: 94.130.104.144
+Error/Status Code: 200
+Priority: LOWEST
+Protocol: http/1.1
+Initiated By: https://acc.digital/ line 580
+Client Port: 35930
+Request Start: 4.511 s
+Time to First Byte: 225 ms
+Content Download: 476 ms
+Bytes In (downloaded): 119.6 KB
+Uncompressed Size: 119.4 KB
+Bytes Out (uploaded): 0.5 KB
+Request Headers:
+
+GET /wp-content/uploads/2017/06/shutterstock1-510x369.png HTTP/1.1
+Host: acc.digital
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://acc.digital/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: _ga=GA1.2.1135144302.1518967505; _gid=GA1.2.1544923795.1518967505; _gat=1
+Response Headers:
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:05 GMT
+Content-Type: image/png
+Content-Length: 122236
+Last-Modified: Tue, 19 Dec 2017 10:22:18 GMT
+Connection: keep-alive
+ETag: "5a38e85a-1dd7c"
+X-Powered-By: PleskLin
+Accept-Ranges: bytes
++ Request 61: https://acc.digital/wp-content/uploads/2017/06/img3.jpg
+URL: https://acc.digital/wp-content/uploads/2017/06/img3.jpg
+Host: acc.digital
+IP: 94.130.104.144
+Error/Status Code: 200
+Priority: LOWEST
+Protocol: http/1.1
+Initiated By: https://acc.digital/ line 603
+Client Port: 35936
+Request Start: 4.805 s
+Time to First Byte: 451 ms
+Content Download: 214 ms
+Bytes In (downloaded): 48.9 KB
+Uncompressed Size: 48.7 KB
+Bytes Out (uploaded): 0.5 KB
+Request Headers:
+
+GET /wp-content/uploads/2017/06/img3.jpg HTTP/1.1
+Host: acc.digital
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://acc.digital/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: _ga=GA1.2.1135144302.1518967505; _gid=GA1.2.1544923795.1518967505; _gat=1
+Response Headers:
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:06 GMT
+Content-Type: image/jpeg
+Content-Length: 49835
+Last-Modified: Tue, 19 Dec 2017 10:17:52 GMT
+Connection: keep-alive
+ETag: "5a38e750-c2ab"
+X-Powered-By: PleskLin
+Accept-Ranges: bytes
++ Request 62: https://acc.digital/wp-content/uploads/2017/06/accs-member-1-510x369.png
+URL: https://acc.digital/wp-content/uploads/2017/06/accs-member-1-510x369.png
+Host: acc.digital
+IP: 94.130.104.144
+Error/Status Code: 200
+Priority: LOWEST
+Protocol: http/1.1
+Initiated By: https://acc.digital/ line 625
+Client Port: 35938
+Request Start: 4.828 s
+Time to First Byte: 245 ms
+Content Download: 1321 ms
+Bytes In (downloaded): 238.3 KB
+Uncompressed Size: 238.0 KB
+Bytes Out (uploaded): 0.5 KB
+Request Headers:
+
+GET /wp-content/uploads/2017/06/accs-member-1-510x369.png HTTP/1.1
+Host: acc.digital
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://acc.digital/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: _ga=GA1.2.1135144302.1518967505; _gid=GA1.2.1544923795.1518967505; _gat=1
+Response Headers:
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:06 GMT
+Content-Type: image/png
+Content-Length: 243730
+Last-Modified: Tue, 19 Dec 2017 10:13:10 GMT
+Connection: keep-alive
+ETag: "5a38e636-3b812"
+X-Powered-By: PleskLin
+Accept-Ranges: bytes
++ Request 63: https://acc.digital/wp-content/uploads/2017/06/enggg1-510x369.jpg
+URL: https://acc.digital/wp-content/uploads/2017/06/enggg1-510x369.jpg
+Host: acc.digital
+IP: 94.130.104.144
+Error/Status Code: 200
+Priority: LOWEST
+Protocol: http/1.1
+Initiated By: https://acc.digital/ line 644
+Client Port: 35930
+Request Start: 5.213 s
+Time to First Byte: 175 ms
+Content Download: 8 ms
+Bytes In (downloaded): 22.7 KB
+Uncompressed Size: 22.5 KB
+Bytes Out (uploaded): 0.5 KB
+Request Headers:
+
+GET /wp-content/uploads/2017/06/enggg1-510x369.jpg HTTP/1.1
+Host: acc.digital
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://acc.digital/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: _ga=GA1.2.1135144302.1518967505; _gid=GA1.2.1544923795.1518967505; _gat=1
+Response Headers:
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:06 GMT
+Content-Type: image/jpeg
+Content-Length: 23016
+Last-Modified: Tue, 19 Dec 2017 10:16:48 GMT
+Connection: keep-alive
+ETag: "5a38e710-59e8"
+X-Powered-By: PleskLin
+Accept-Ranges: bytes
++ Request 64: https://acc.digital/wp-content/uploads/2017/06/shutterstock_1653039321-510x369.jpg
+URL: https://acc.digital/wp-content/uploads/2017/06/shutterstock_1653039321-510x369.jpg
+Host: acc.digital
+IP: 94.130.104.144
+Error/Status Code: 200
+Priority: LOWEST
+Protocol: http/1.1
+Initiated By: https://acc.digital/ line 656
+Client Port: 35930
+Request Start: 5.398 s
+Time to First Byte: 253 ms
+Content Download: 43 ms
+Bytes In (downloaded): 42.8 KB
+Uncompressed Size: 42.6 KB
+Bytes Out (uploaded): 0.5 KB
+Request Headers:
+
+GET /wp-content/uploads/2017/06/shutterstock_1653039321-510x369.jpg HTTP/1.1
+Host: acc.digital
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://acc.digital/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: _ga=GA1.2.1135144302.1518967505; _gid=GA1.2.1544923795.1518967505; _gat=1
+Response Headers:
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:06 GMT
+Content-Type: image/jpeg
+Content-Length: 43605
+Last-Modified: Tue, 19 Dec 2017 10:21:34 GMT
+Connection: keep-alive
+ETag: "5a38e82e-aa55"
+X-Powered-By: PleskLin
+Accept-Ranges: bytes
++ Request 65: https://acc.digital/wp-content/uploads/2017/06/shutterstock_4057673712-510x369.jpg
+URL: https://acc.digital/wp-content/uploads/2017/06/shutterstock_4057673712-510x369.jpg
+Host: acc.digital
+IP: 94.130.104.144
+Error/Status Code: 200
+Priority: LOWEST
+Protocol: http/1.1
+Initiated By: https://acc.digital/ line 668
+Client Port: 35936
+Request Start: 5.472 s
+Time to First Byte: 262 ms
+Content Download: 360 ms
+Bytes In (downloaded): 49.1 KB
+Uncompressed Size: 48.9 KB
+Bytes Out (uploaded): 0.5 KB
+Request Headers:
+
+GET /wp-content/uploads/2017/06/shutterstock_4057673712-510x369.jpg HTTP/1.1
+Host: acc.digital
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://acc.digital/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: _ga=GA1.2.1135144302.1518967505; _gid=GA1.2.1544923795.1518967505; _gat=1
+Response Headers:
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:06 GMT
+Content-Type: image/jpeg
+Content-Length: 50025
+Last-Modified: Tue, 19 Dec 2017 10:22:00 GMT
+Connection: keep-alive
+ETag: "5a38e848-c369"
+X-Powered-By: PleskLin
+Accept-Ranges: bytes
++ Request 66: https://acc.digital/wp-content/plugins/read-more-right-here/loader/ajax-loader.gif
+URL: https://acc.digital/wp-content/plugins/read-more-right-here/loader/ajax-loader.gif
+Host: acc.digital
+IP: 94.130.104.144
+Error/Status Code: 200
+Priority: LOWEST
+Protocol: http/1.1
+Initiated By: https://acc.digital/ line 46
+Client Port: 35930
+Request Start: 5.696 s
+Time to First Byte: 202 ms
+Content Download: 2 ms
+Bytes In (downloaded): 1.7 KB
+Uncompressed Size: 1.4 KB
+Bytes Out (uploaded): 0.5 KB
+Request Headers:
+
+GET /wp-content/plugins/read-more-right-here/loader/ajax-loader.gif HTTP/1.1
+Host: acc.digital
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://acc.digital/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: _ga=GA1.2.1135144302.1518967505; _gid=GA1.2.1544923795.1518967505; _gat=1
+Response Headers:
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:07 GMT
+Content-Type: image/gif
+Content-Length: 1456
+Last-Modified: Mon, 09 Oct 2017 06:38:28 GMT
+Connection: keep-alive
+ETag: "59db1964-5b0"
+X-Powered-By: PleskLin
+Accept-Ranges: bytes
++ Request 67: https://acc.digital/wp-content/uploads/2017/05/cropped-accs-1-32x32.png
+URL: https://acc.digital/wp-content/uploads/2017/05/cropped-accs-1-32x32.png
+Host: acc.digital
+IP: 94.130.104.144
+Error/Status Code: 200
+Priority: MEDIUM
+Protocol: http/1.1
+Client Port: 35932
+Request Start: 6.874 s
+Time to First Byte: 233 ms
+Content Download: 2 ms
+Bytes In (downloaded): 1.8 KB
+Uncompressed Size: 1.6 KB
+Bytes Out (uploaded): 0.5 KB
+Request Headers:
+
+GET /wp-content/uploads/2017/05/cropped-accs-1-32x32.png HTTP/1.1
+Host: acc.digital
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://acc.digital/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: _ga=GA1.2.1135144302.1518967505; _gid=GA1.2.1544923795.1518967505; _gat=1
+Response Headers:
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:08 GMT
+Content-Type: image/png
+Content-Length: 1597
+Last-Modified: Mon, 09 Oct 2017 07:38:50 GMT
+Connection: keep-alive
+ETag: "59db278a-63d"
+X-Powered-By: PleskLin
+Accept-Ranges: bytes
++ Request 68: https://acc.digital/wp-content/uploads/2017/05/cropped-accs-1-192x192.png
+URL: https://acc.digital/wp-content/uploads/2017/05/cropped-accs-1-192x192.png
+Host: acc.digital
+IP: 94.130.104.144
+Error/Status Code: 200
+Priority: MEDIUM
+Protocol: http/1.1
+Client Port: 35932
+Request Start: 7.112 s
+Time to First Byte: 498 ms
+Content Download: 1 ms
+Bytes In (downloaded): 18.3 KB
+Uncompressed Size: 18.0 KB
+Bytes Out (uploaded): 0.5 KB
+Request Headers:
+
+GET /wp-content/uploads/2017/05/cropped-accs-1-192x192.png HTTP/1.1
+Host: acc.digital
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 PTST/180215.170220
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://acc.digital/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: _ga=GA1.2.1135144302.1518967505; _gid=GA1.2.1544923795.1518967505; _gat=1
+Response Headers:
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 18 Feb 2018 15:25:08 GMT
+Content-Type: image/png
+Content-Length: 18457
+Last-Modified: Mon, 09 Oct 2017 07:39:04 GMT
+Connection: keep-alive
+ETag: "59db2798-4819"
+X-Powered-By: PleskLin
+Accept-Ranges: bytes

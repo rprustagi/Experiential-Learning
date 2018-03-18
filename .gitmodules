@@ -1,0 +1,12 @@
+[submodule "EL-HTTP-Protocol-Mechanisms"]
+	path = EL-HTTP-Protocol-Mechanisms
+	url = https://github.com/rprustagi/EL-HTTP-Protocol-Mechanisms
+[submodule "EL-Understanding-Network-Delays"]
+	path = EL-Understanding-Network-Delays
+	url = https://github.com/rprustagi/EL-Understanding-Network-Delays
+[submodule "EL-Web-Performance-I"]
+	path = EL-Web-Performance-I
+	url = https://github.com/rprustagi/EL-Web-Performance-I
+[submodule "EL-HTTP-Basics"]
+	path = EL-HTTP-Basics
+	url = https://github.com/rprustagi/EL-HTTP-Basics
